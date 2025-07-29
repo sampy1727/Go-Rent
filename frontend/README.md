@@ -1,12 +1,46 @@
-# React + Vite
+# 🚗 GoRent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**GoRent** is a full-stack car rental web application that allows users to browse, book, and manage rental cars seamlessly. Built with a modern tech stack and robust backend, GoRent offers both admin and customer functionalities with a clean UI and secure authentication.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
+- React.js
+- Vite
+- React Router
+- Axios
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JWT (JSON Web Token)
+
+
+---
+
+## ✨ Features
+
+### 👥 Authentication & Authorization
+- User registration and login
+- Secure JWT-based session handling
+- Role-based access (admin vs user)
+
+### 🚘 Car Management
+- Admin can add, edit, or delete car listings
+- Each car has a name, image, description, price, availability, etc.
+
+### 📅 Booking System
+- Users can book available cars with specific dates
+- Booking validation to prevent overlaps
+- View past and upcoming bookings
+
+### 🛡️ Protected Routes
+- Users cannot access admin or other users' data
+- Admin dashboard with full car/booking control
+
+
+
+
