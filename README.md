@@ -40,7 +40,3 @@
 ### 🛡️ Protected Routes
 - Users cannot access admin or other users' data
 - Admin dashboard with full car/booking control
-
-
-
-
